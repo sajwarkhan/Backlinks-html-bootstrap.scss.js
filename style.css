@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Montserrat" !important;
+  font-weight: 800;
+  line-height: 66px;
+  color: white !important;
+}
+
+p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
+}
+
+.contact {
+  color: white;
+}
+
+span {
+  color: black;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  line-height: 39px !important;
+  color: #344552 !important;
+  max-width: 1182px;
+  max-height: 39px;
+}
+
+h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  letter-spacing: 0.03em !important;
+  text-decoration-line: underline;
+  color: #1E65BC !important;
+}
+
+nav .navbar-nav {
+  width: 100%;
+  justify-content: center;
+  gap: 64px;
+}
+nav .shopbtn {
+  gap: 12px;
+}
+nav .shopbtn .account {
+  background-color: #FEDC5A;
+}
+nav .shopbtn .cart {
+  background-color: #E1F0FE;
+}
+
+.mainwrapper {
+  background-image: url(Images/background.png);
+  width: 100%;
+}
+.mainwrapper .text-link {
+  margin-top: 24px;
+}
+.mainwrapper .text-link p {
+  margin-top: 24px;
+}
+.mainwrapper .text-link .contact {
+  margin-top: 30px;
+  color: white;
+}
+.mainwrapper .text-link .guest {
+  margin-top: 30px;
+  background-color: #FEDC5A;
+}
+.mainwrapper .text-link .brands {
+  margin-top: 54px;
+  display: flex;
+  gap: 38px;
+}
+@media screen and (max-width: 1200px) {
+  .mainwrapper .text-link .brands {
+    margin-bottom: 45px;
+  }
+}
+.mainwrapper .text-link .brands img {
+  max-width: 125px;
+}
+.mainwrapper .second-image img {
+  width: 100%;
+}
+
+.second-stage {
+  margin-top: -20px;
+  padding: 23px 16px;
+  background-color: #28334A;
+}
+.second-stage h4 {
+  color: white;
+}
+.second-stage .dropdown-stage-one {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.second-stage .dropdown-stage-one .d-a {
+  max-width: 324px;
+  width: 100%;
+}
+.second-stage .dropdown-stage-one .d-a button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  max-width: 324px;
+  width: 100%;
+}
+.second-stage .dropdown-stage-one .d-b {
+  max-width: 232px;
+  width: 100%;
+}
+.second-stage .dropdown-stage-one .d-b button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  max-width: 232px;
+  width: 100%;
+}
+.second-stage .dropdown-stage-one .d-c {
+  max-width: 113px;
+  width: 100%;
+}
+.second-stage .dropdown-stage-one .d-c button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FEDC5A;
+  color: black;
+  max-width: 113px;
+  width: 100%;
+}
+
+.stage-three {
+  margin-top: 25px;
+  padding: 12px;
+  border: 20px solid #E1F0FE;
+}
+.stage-three thead {
+  background-color: #F9FAFB;
+}
+
+.techni {
+  display: flex;
+  gap: 12px;
+}
+.techni .technitext {
+  display: flex;
+  flex-direction: column;
+}
+.techni .technitext span {
+  color: black;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+.techni .technitext .spana {
+  text-decoration-line: underline;
+  color: #5E6C88;
+}
+
+td .percent {
+  text-align: center;
+  padding: 10px 0px;
+  gap: 5px;
+}
+td .percent .prtclr {
+  border-radius: 16px;
+  background-color: #ECFDF3;
+  max-width: 48px;
+  width: 100%;
+  padding: 0px 5px;
+}
+
+.prtclrcolor {
+  background-color: #FEF3F2;
+  border-radius: 16px;
+  max-width: 48px;
+  width: 100%;
+  padding: 0px 5px;
+}
+.prtclrcolor div img {
+  max-width: 7px;
+  max-height: 7px;
+}
+.prtclrcolor div span {
+  color: red !important;
+}
+
+.cart {
+  background-color: #EDF3FA;
+  padding: 7px;
+  border: 0;
+}
+.cart span {
+  color: #1E65BC;
+}
+
+.table {
+  border: 1px solid #eaeef2;
+  border-radius: 10px;
+}
+
+.allsite {
+  display: flex;
+  justify-content: center;
+}
+
+.h2class {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

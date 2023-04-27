@@ -1,0 +1,217 @@
+@import "_config";
+
+ 
+
+nav{
+    .navbar-nav {
+        width: 100%;
+        justify-content: center;
+        gap: 64px;
+        
+        
+    }
+    .shopbtn{
+        gap: 12px;
+
+        .account{
+            background-color: #FEDC5A;
+            
+        }
+        .cart{
+            background-color: #E1F0FE;
+        }
+    }
+}
+.mainwrapper{
+    background-image: url(Images/background.png);
+    // max-width: 1440px;
+    width: 100%;
+
+
+        .text-link{
+            margin-top: 24px;
+           p{
+            margin-top: 24px;
+
+           }
+
+            .contact{
+                margin-top: 30px;       
+                color: white;
+            }
+            
+            .guest{
+                margin-top: 30px;
+                background-color: #FEDC5A;
+            }
+            .brands{
+                @media screen and (max-width: 1200px)
+                {
+                    margin-bottom: 45px;
+                }
+        
+                
+                margin-top: 54px;
+                display: flex;
+                gap: 38px;
+                img{
+                    max-width: 125px;
+                }
+            }
+        }
+        .second-image{
+          
+            img{
+            // width: 566px;
+                width: 100%;
+            }
+        }
+        
+
+    }
+    .second-stage{
+        margin-top: -20px;
+        padding: 23px 16px;
+        background-color: #28334A;
+        h4{
+            color: white;
+        }
+    
+    .dropdown-stage-one{
+            gap:10px ;
+            flex-wrap: wrap;
+        .d-a{
+            max-width: 324px;
+            width: 100%;
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                color: black;
+                max-width: 324px;
+                width: 100%;
+            }
+        }
+        
+        .d-b{
+            max-width: 232px;
+            width: 100%;
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                color: black;
+                max-width: 232px;
+                width: 100%;
+            }
+        }
+        .d-c{
+            // background: yellow;
+            max-width: 113px;
+            width: 100%;
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            background-color:#FEDC5A;
+            ;
+            color:black;
+                max-width: 113px;
+                width: 100%;
+            }
+
+        }
+    }
+
+    }
+    .stage-three{
+        margin-top: 25px;
+        padding: 12px;
+
+        border: 20px solid #E1F0FE;
+        thead{
+            background-color:#F9FAFB;
+        }
+       
+    }
+.techni{
+ display: flex;
+ gap: 12px;
+    .technitext{
+        display: flex;
+       flex-direction: column;
+            span{
+        color: black;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+    }
+    .spana{
+        text-decoration-line: underline;
+        color: #5E6C88;
+
+    }
+ }
+
+}
+td{
+   
+    .percent{
+        text-align: center;
+        padding: 10px 0px;
+        gap: 5px;
+    
+    
+    .prtclr{
+        border-radius: 16px;
+        background-color: #ECFDF3;
+        max-width: 48px;
+        width: 100%;
+        padding: 0px 5px;
+        
+    }
+}
+}
+    .prtclrcolor{
+        background-color:#FEF3F2;
+        border-radius: 16px;
+        max-width: 48px;
+        width: 100%;
+        padding: 0px 5px;
+        ;
+        div{
+            img{
+            max-width:7px;
+            max-height: 7px ;
+
+            }
+            span {
+        color: red !important;
+        }
+    }
+    }
+    .cart{
+        background-color: #EDF3FA;
+        padding: 7px;
+        border: 0;
+        span{
+        color: #1E65BC;
+    }
+    }
+    .table{
+     border: 1px solid  #eaeef2;
+     border-radius: 10px;;
+        
+    }
+    .allsite{
+        display: flex;
+        justify-content: center;
+    }
+    .h2class{
+        display: flex;
+        justify-content: center;
+    }
