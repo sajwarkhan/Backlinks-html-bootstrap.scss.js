@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
 
  h1 {
     font-family: 'Montserrat'!important;
@@ -38,7 +45,10 @@ line-height: 39px !important;
 color: #344552 !important;
 max-width: 1182px;
 max-height: 39px;
+
+    
 }
+
 h6{
     font-family: 'Montserrat';
 font-style: normal;
@@ -53,4 +63,47 @@ text-decoration-line: underline;
 
 color: #1E65BC !important;
 
+}
+h3{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800 !important;
+font-size: 40px !important;
+line-height: 49px !important;
+
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.015em;
+text-transform: uppercase;
+
+color: #344552 !important;
+@media screen and (max-width: 768px) {
+    font-weight: 800 !important;
+font-size: 22px !important;
+line-height: 27px !important;
+    
+}
+
+
+}
+h4{
+    font-family: Montserrat !important;
+    font-style: bold !important;
+font-size: 26px !important;
+font-weight: 700 !important;
+line-height: 27px !important;
+letter-spacing: 0em !important;
+text-align: left !important;
+color: #344552 !important;
+vertical-align: Center !important;
+
+}
+li{
+    Font-family: Montserrat;
+Font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+line-height: 123%;
+vertical-align: Top;
+Color: White;
 }
